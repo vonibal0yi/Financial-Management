@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 style="text-align: center; padding: 50px; font-size: 3rem;" >Financial Management</h1>
+    <br>
+    <div class="container">
+    <div class="list-items">
+        <div class="grid">
+        <input type="text" id="text" placeholder="Add List Of Items" required>
+        <br>
+        <input type="text" id="price" placeholder="  Price" required>
+        <button id="butto" onclick="addList()" >Add</button>
+        <br><br>
+        </div>
+        <div class="all">
+        <div  id="addhere" class="addhere">
+            <div class="underthis" id="underthis">
+                
+            </div>
+        </div>
+        </div>
+   </div>
+ 
+   <div class="summary">
+    <div>
+        <p>Income</p>
+        <input type="text" id="paid" placeholder="Money Paid" required class="box"></div>
+        <div>
+         <p>Expenses</p>
+        <button id="expense" class="box"></button></div>
+        <div>
+        <p>Balance </p>
+        <button id="balance" class="box"></button></div>
+    </div>
+    </div>
+     <h1 id="total" class="tiny"></h1>
+
+
+
+
+    <script src="script.js">
+       
+    </script>
+</body>
+</html>

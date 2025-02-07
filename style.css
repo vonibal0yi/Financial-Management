@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+ul{
+    list-style: none;
+}
+body{
+    background: linear-gradient(rgb(233, 233, 233),#071818);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    height: 100vh;
+}
+h1{
+}
+button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+}
+input{
+    height: 35px;
+    width: 200px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px;
+    text-align: center;
+}
+.container{
+    
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.tiny{
+    font-size: .1px;
+}
+.list-itemss{
+    display: flex;
+    align-items: center;
+    
+    gap: 5px;
+}
+.summary{
+    display: flex;
+    flex-direction: column;
+}
+.box{
+    width: 350px;
+}
+.ulstyle{
+    display: flex;
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    padding-left: 50px;
+}
+.addhere{
+    display: flex;
+    flex-direction: column;
+   
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px
+}
+.underthis{
+    display: grid;
+    grid-template-columns: 0.4fr 1fr;
+    grid-template-rows: 1fr;
+    
+    border-left: 5px solid red;
+   gap: 5px;
+}
+.buttonused{
+    width: 364px;
+    background-color: yellowgreen;
+    border: px solid black;
+    font-weight: 700;
+}
+.productused{
+   
+    padding-top: 8px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(153, 205, 50, 0.568);
+    border-radius: 2px;
+    
+   
+}
+.grid{
+    display: flex;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr; 
+   
+}
+@media (width< 540px) {
+    input{
+        height: 35px;
+        width: 120px;
+        border: none;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px;
+        text-align: center;
+    }
+    .buttonused{
+        width: 235px;
+        background-color: yellowgreen;
+        border: px solid black;
+        font-weight: 700;
+    }
+    .productused{
+   
+        padding-top: 8px;
+        text-align: center;
+        width: 110px;
+        background-color: rgba(153, 205, 50, 0.568);
+        border-radius: 2px;
+        
+       
+    }
+}
