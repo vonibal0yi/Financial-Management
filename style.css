@@ -49,9 +49,11 @@ input{
 .summary{
     display: flex;
     flex-direction: column;
+    color: #000;
 }
 .box{
     width: 350px;
+    color: #000;
 }
 .ulstyle{
     display: flex;
@@ -86,9 +88,10 @@ ul{
     background-color: yellowgreen;
     border: px solid black;
     font-weight: 700;
+    color: #000;
 }
 .productused{
-   
+   color: #000;
     padding-top: 8px;
     text-align: center;
     width: 100%;
