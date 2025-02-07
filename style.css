@@ -10,6 +10,7 @@ body{
     background: linear-gradient(rgb(233, 233, 233),#071818);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
     height: 100vh;
+    color: black;
 }
 h1{
 }
@@ -19,7 +20,7 @@ button{
     border: none;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px black;
 }
 input{
     height: 35px;
@@ -27,7 +28,7 @@ input{
     border: none;
     background-color: white;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px;
+    box-shadow: 2px 2px 5px black;
     text-align: center;
 }
 .container{
